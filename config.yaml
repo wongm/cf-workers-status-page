@@ -15,25 +15,67 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  - id: wongm.com
+    name: wongm.com
+    url: 'https://wongm.com/'
+    
+  - id: railgallery.wongm.com
+    name: Wongm's Rail Gallery
+    url: 'https://railgallery.wongm.com/'
+    
+  - id: modelrail.wongm.com
+    name: Marcus' Model Railways
+    url: 'https://modelrail.wongm.com/'
+    
+  - id: raildocs.wongm.com
+    name: Wongm's Rail Document Collection
+    url: 'https://raildocs.wongm.com/'
+    
+  - id: tramdetective.wongm.com
+    name: Tram Detective
+    url: 'https://tramdetective.wongm.com/quality.php'
+    
+  - id: jakejunior.wongm.com
+    name: Jake Junior
+    url: 'https://jakejunior.wongm.com/'
+    
+  - id: tramfleet.wongm.com
+    name: Melbourne's Tram Fleet
+    url: 'https://tramfleet.wongm.com/'
+    
+  - id: zenphoto.wongm.com
+    name: Zenphoto Example Gallery
+    url: 'https://zenphoto.wongm.com/'
+    
+  - id: code.wongm.com
+    name: Code Blog
+    url: 'https://code.wongm.com/'
+    
+  - id: subscribe.wongm.com
+    name: Supporters of Marcus Wong
+    url: 'https://subscribe.wongm.com/'
+    
+  - id: railgeelong.com
+    name: Rail Geelong
+    url: 'https://railgeelong.com/'
+    
+  - id: checkerboardhill.com
+    name: Checkerboard Hill
+    url: 'https://www.checkerboardhill.com/'
+    
+  - id: eurogunzel.com
+    name: Euro Gunzel
+    url: 'https://www.eurogunzel.com/'
+    
+  - id: vlinecars.com
+    name: V/LineCars
+    url: 'https://www.vlinecars.com/'
+    
+  - id: tracker.vlinecars.com
+    name: V/LineCars Tracker
+    url: 'https://tracker.vlinecars.com/'
+    
+  - id: vnsc.org.au
+    name: Victorian N Scale Collective
+    url: 'https://www.vnsc.org.au/'
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
